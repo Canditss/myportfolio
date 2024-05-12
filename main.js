@@ -5,4 +5,8 @@ function toggleAboutButton() {
   button.textContent = (button.textContent === '▲') ? 'Details ▼' : '▲';
 }
 
+  document.getElementById("toggleAboutButton").addEventListener("click", function() {
+      var elemenTujuan = document.getElementById("about");
+      elemenTujuan.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
 
