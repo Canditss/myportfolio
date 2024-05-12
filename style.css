@@ -18,7 +18,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: poppins,sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 
 body{
@@ -42,7 +42,7 @@ body{
     width: 400px;
     padding: 3rem;
     border-radius: 10px;
-    min-height: 400px;
+    min-height: 1000px;
     position: relative;
     color: #fff;
     margin: 15px;
@@ -69,6 +69,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    margin-top: 1.5rem;
     /* border: 1px solid white; */
 }
 
@@ -159,7 +160,7 @@ body{
     background:linear-gradient(45deg, var(--light-grey), var(--dark-grey));
     padding: 1rem 3rem;
     border-radius: 30px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     border: none;
     cursor: pointer;
     display: none;
@@ -181,13 +182,13 @@ body{
 
 .about{
     background-color: #111;
-    max-width: 800px;
-    padding: 2rem 3rem;
+    max-width: 900px;
+    padding: 1rem 3rem;
     border-radius: 10px;
 }
 .about h1{
     color: #f2f2f2;
-    margin-bottom: .5rem;
+    /* margin-bottom: .5rem; */
     position: relative;
     display: inline-block;
     font-size: 3rem;
@@ -212,7 +213,7 @@ body{
 .about>p{
     color: #555;
     margin: 1rem 0;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 .about .work{
@@ -224,7 +225,6 @@ body{
 .work .workbox{
     display: flex;
     justify-content: space-between;
-    /* align-items; */
     border-radius: 8px;
     border: 1px solid #333;
     padding: 1rem;
@@ -315,10 +315,11 @@ body{
     .download-btn{
         display: block;
     }
-
     .about{
         display: none;
     }
 
 }
+
+
 
